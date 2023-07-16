@@ -1,0 +1,57 @@
+/* work sans font */
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;800&display=swap');
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+header{
+background: rgba(255, 144, 14, 0.10);
+/* width: 1340px;
+height: 1700px; */
+padding: 50px 240px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+   color: #424242;
+   font-size: 1rem;
+   font-weight: 500;
+}
+
+.nav-title{
+color: var(--dark-01, #131313);
+font-size: 2.8rem;
+font-weight: 700;
+}
+
+
+.banner-title{
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.banner-content{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-description{
+font-size: 16px;
+font-weight: 400;
+}
